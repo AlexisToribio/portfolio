@@ -1,0 +1,50 @@
+.button_container,
+.button_standard {
+  padding: 0.8rem 3rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.button_standard {
+  border: 1px solid #11d1a4;
+  background-color: transparent;
+  color: #11d1a4;
+}
+
+.button_standard:hover {
+  background-color: rgba(17, 209, 164, 0.307);
+  transition: all 0.2s;
+}
+
+.button_container {
+  border: 1px solid #192a56;
+  background-color: #192a56;
+  color: white;
+}
+
+.button_container:hover {
+  background-color: transparent;
+  color: #192a56;
+  transition: all 0.2s;
+}
+
+@media (min-width: 768px) {
+  .button_container {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.8rem;
+    background-color: transparent;
+    border: 1px solid #192a56;
+    color: #192a56;
+  }
+
+  .button_container:hover {
+    background-color: rgba(17, 209, 164, 0.307);
+  }
+}
+
+@media (min-width: 1024px) {
+  .button_container {
+    font-size: 1.1rem;
+  }
+}

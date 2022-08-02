@@ -1,0 +1,40 @@
+.nav_container {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav_container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.2rem 1rem;
+    width: 55%;
+    height: auto;
+    flex-direction: row;
+    background-color: transparent;
+    font-size: 0.8rem;
+    gap: 1rem;
+    transition: none;
+  }
+
+  .nav_item {
+    text-decoration: none;
+    color: #192a56;
+  }
+
+  .nav_item:hover {
+    color: #11d1a4;
+    transition: all 0.2s;
+  }
+
+  .nav_item span {
+    color: #11d1a4;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav_container {
+    font-size: 1.1rem;
+  }
+}
