@@ -3,7 +3,11 @@
   justify-content: center;
   align-items: center;
   line-height: 2rem;
-  padding: 0.5rem 2rem;
+  width: 100%;
+}
+
+.hero_container div {
+  width: 100%;
 }
 
 .greeting,
@@ -14,7 +18,7 @@
 }
 
 .greeting {
-  color: #11d1a4;
+  color: #0d7933;
 }
 
 .name {
@@ -47,7 +51,6 @@
 @media (min-width: 1024px) {
   .hero_container {
     line-height: 5rem;
-    padding: 1rem 10rem;
   }
 
   h1 {

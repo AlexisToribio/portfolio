@@ -1,0 +1,19 @@
+h2 {
+  position: relative;
+  margin: 0 0 50px 0;
+  color: #192a56;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  background-color: #192a5691;
+  width: calc(100% - 160px);
+  height: 2px;
+  top: 15px;
+  left: 160px;
+}
+
+h2 span {
+  color: #0d7933;
+}

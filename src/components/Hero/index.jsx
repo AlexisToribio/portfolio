@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../Button';
+import LinkButton from '../LinkButton';
 import './styles.css';
 
 const Hero = () => {
@@ -13,7 +13,11 @@ const Hero = () => {
           I'm a system engineer based in Peru, specializing in building
           exceptional websites.
         </p>
-        <Button text="Get In Touch" standard={true} />
+        <LinkButton
+          href="mailto:alexistoba21@gmail.com"
+          text="Get In Touch"
+          standard={true}
+        />
       </div>
     </div>
   );

@@ -1,0 +1,39 @@
+.about_container {
+  width: 100%;
+}
+
+.about_container > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about {
+  width: 100%;
+}
+
+.about p {
+  margin-bottom: 25px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #65686f;
+}
+
+.photo_container {
+  text-align: center;
+  width: 80%;
+}
+
+.photo {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .about_container > div {
+    flex-wrap: nowrap;
+    column-gap: 80px;
+  }
+
+  .photo_container {
+    width: 80%;
+  }
+}

@@ -1,0 +1,26 @@
+.skill_item {
+  display: flex;
+  align-items: center;
+}
+
+.image_container {
+  text-align: center;
+  width: 40%;
+}
+
+.skill_image {
+  width: 50%;
+}
+
+.skill_description {
+  width: 60%;
+  line-height: 1.5;
+}
+
+.skill_description h3 {
+  color: #42454a;
+}
+
+.skill_description p {
+  color: #65686f;
+}

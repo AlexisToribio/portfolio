@@ -24,17 +24,23 @@
   }
 
   .nav_item:hover {
-    color: #11d1a4;
+    color: #0d7933;
     transition: all 0.2s;
   }
 
   .nav_item span {
-    color: #11d1a4;
+    color: #0d7933;
   }
 }
 
 @media (min-width: 1024px) {
   .nav_container {
     font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .nav_container {
+    width: 40%;
   }
 }

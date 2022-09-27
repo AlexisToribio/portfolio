@@ -14,7 +14,14 @@ const Footer = () => {
           </li>
         ))}
       </ul>
-      <p className="credits">Adapted from the Brittany Chiang Portfolio</p>
+      <a
+        href="https://github.com/bchiang7/v4"
+        className="credits"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Adapted from the Brittany Chiang Portfolio
+      </a>
     </div>
   );
 };

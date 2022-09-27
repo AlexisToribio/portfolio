@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../Button';
+import LinkButton from '../LinkButton';
 import { menuOptions } from '../../constans/menuOptions';
 import './styles.css';
 
@@ -12,7 +12,10 @@ const Navbar = () => {
           {option}
         </a>
       ))}
-      <Button text="Resume" />
+      <LinkButton
+        href="/Miguel Alexis Toribio Barrueta - CURRICULUM.pdf"
+        text="Resume"
+      />
     </nav>
   );
 };

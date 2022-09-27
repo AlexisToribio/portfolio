@@ -4,16 +4,17 @@
   border-radius: 0.5rem;
   font-size: 1.1rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .button_standard {
-  border: 1px solid #11d1a4;
+  border: 1px solid #0d7933;
   background-color: transparent;
-  color: #11d1a4;
+  color: #0d7933;
 }
 
 .button_standard:hover {
-  background-color: rgba(17, 209, 164, 0.307);
+  background-color: rgba(13, 121, 51, 0.307);
   transition: all 0.2s;
 }
 
@@ -39,7 +40,7 @@
   }
 
   .button_container:hover {
-    background-color: rgba(17, 209, 164, 0.307);
+    background-color: rgba(13, 121, 51, 0.307);
   }
 }
 

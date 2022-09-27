@@ -1,0 +1,26 @@
+.skills_container {
+  width: 100%;
+}
+
+.skills_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+.skill_item:nth-child(2) .skill_image,
+.skill_item:nth-child(3) .skill_image,
+.skill_item:nth-child(5) .skill_image,
+.skill_item:nth-child(6) .skill_image {
+  width: 40%;
+}
+
+.skill_item:nth-child(7) .skill_image {
+  width: 80%;
+}
+
+@media (min-width: 1024px) {
+  .skills_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

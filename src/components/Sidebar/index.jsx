@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { menuOptions } from '../../constans/menuOptions';
-import Button from '../Button';
+import LinkButton from '../LinkButton';
 import './styles.css';
 
 const Sidebar = () => {
@@ -25,7 +25,10 @@ const Sidebar = () => {
             {option}
           </a>
         ))}
-        <Button text="Resume" />
+        <LinkButton
+          href="/Miguel Alexis Toribio Barrueta - CURRICULUM.pdf"
+          text="Resume"
+        />
       </nav>
     </>
   );

@@ -1,8 +1,16 @@
 import React from 'react';
-import { Layout } from '../components';
+import { Layout, Hero, About, Skills, Contact, Portfolio } from '../components';
 
 function Home() {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <Hero />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Contact />
+    </Layout>
+  );
 }
 
 export default Home;

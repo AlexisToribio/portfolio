@@ -1,11 +1,12 @@
 .footer_container {
   display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  padding: 1rem 0;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 1rem 0;
-  width: 100%;
-  height: auto;
 }
 
 .footer_container ul {
@@ -25,16 +26,23 @@
 }
 
 .icon:hover {
-  color: #11d1a4;
+  color: #0d7933;
   transition: all 0.2s;
 }
 
 .credits {
   width: 100%;
+  margin-top: 10px;
   margin-bottom: 0;
   font-size: 0.8rem;
   text-align: center;
+  text-decoration: none;
   color: #192a56;
+}
+
+.credits:hover {
+  color: #0d7933;
+  transition: all 0.2s;
 }
 
 @media (min-width: 768px) {
