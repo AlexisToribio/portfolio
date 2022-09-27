@@ -12,7 +12,19 @@
 }
 
 .contact_container p {
-  width: 60%;
+  width: 100%;
   margin: 0 auto 40px;
   color: #65686f;
+}
+
+@media (min-width: 1024px) {
+  .contact_container p {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact_container p {
+    width: 60%;
+  }
 }

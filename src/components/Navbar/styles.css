@@ -2,30 +2,44 @@
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .nav_container {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
     padding: 2.2rem 1rem;
-    width: 55%;
+    width: 60%;
     height: auto;
     flex-direction: row;
     background-color: transparent;
-    font-size: 0.8rem;
-    gap: 1rem;
+    font-size: 1rem;
     transition: none;
   }
 
   .nav_item {
+    position: relative;
     text-decoration: none;
     color: #192a56;
+    padding-bottom: 5px;
   }
 
-  .nav_item:hover {
+  .nav_item::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #0d7933;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+  }
+
+  .nav_item:hover,
+  .nav_item:hover::after {
     color: #0d7933;
-    transition: all 0.2s;
+    opacity: 0.8;
+    transition: all 0.3s;
   }
 
   .nav_item span {
@@ -33,14 +47,8 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .nav_container {
-    font-size: 1.1rem;
-  }
-}
-
 @media (min-width: 1440px) {
   .nav_container {
-    width: 40%;
+    width: 50%;
   }
 }
