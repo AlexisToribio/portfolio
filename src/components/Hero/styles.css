@@ -18,19 +18,19 @@
 }
 
 .greeting {
-  color: #0d7933;
+  color: var(--text-green);
 }
 
 .name {
-  color: #192a56;
+  color: var(--text-darkblue);
 }
 
 .feature {
-  color: #65686f;
+  color: var(--text-gray);
 }
 
 .description {
-  color: #65686f;
+  color: var(--text-gray);
 }
 
 @media (min-width: 768px) {

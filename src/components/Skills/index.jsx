@@ -9,12 +9,12 @@ const Skills = () => {
     <div id="skills" className="skills_container">
       <Title number="02">Skills</Title>
       <div className="skills_grid">
-        {skills.map(({ img, title, description, index }) => (
+        {skills.map(({ img, title, description }) => (
           <ItemSkill
             img={img}
             title={title}
             description={description}
-            key={index}
+            key={title}
           />
         ))}
       </div>

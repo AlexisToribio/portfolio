@@ -22,11 +22,11 @@
 .icon {
   width: 1.5rem;
   height: 1.5rem;
-  color: #192a56;
+  color: var(--text-darkblue);
 }
 
 .icon:hover {
-  color: #0d7933;
+  color: var(--text-green);
   transition: all 0.2s;
 }
 
@@ -37,11 +37,11 @@
   font-size: 0.8rem;
   text-align: center;
   text-decoration: none;
-  color: #192a56;
+  color: var(--text-darkblue);
 }
 
 .credits:hover {
-  color: #0d7933;
+  color: var(--text-green);
   transition: all 0.2s;
 }
 

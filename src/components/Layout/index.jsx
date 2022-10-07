@@ -4,9 +4,9 @@ import Header from '../Header';
 import Footer from '../Footer';
 import './styles.css';
 
-const Layout = ({ children }) => {
+const Layout = ({ theme, children }) => {
   return (
-    <div className="layout_container">
+    <div className={`layout_container ${theme}`}>
       <Header />
       <div>
         <div className="left">

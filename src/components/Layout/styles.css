@@ -48,7 +48,7 @@
   .right div::after {
     content: '';
     height: 5rem;
-    border: 1px solid #192a56;
+    border: 1px solid var(--text-darkblue);
   }
 
   .right {
@@ -59,20 +59,20 @@
     margin: 0 0 1.6rem;
     writing-mode: vertical-rl;
     text-decoration: none;
-    color: #192a56;
+    color: var(--text-darkblue);
     font-size: 1.1rem;
   }
 
   .icon {
     width: 1.5rem;
     height: 1.5rem;
-    color: #192a56;
+    color: var(--text-darkblue);
   }
 
   .icon:hover,
   .right a:hover {
     transform: translateY(-0.2rem);
-    color: #0d7933;
+    color: var(--text-green);
     transition: all 0.2s;
   }
 }

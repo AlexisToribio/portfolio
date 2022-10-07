@@ -18,9 +18,9 @@
 }
 
 .skill_description h3 {
-  color: #42454a;
+  color: var(--text-gray);
 }
 
 .skill_description p {
-  color: #65686f;
+  color: var(--text-gray);
 }
