@@ -1,8 +1,9 @@
-import React from 'react';
 import { rrss } from '../../constans/rrssList';
+import { useTranslation } from 'react-i18next';
 import './styles.css';
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <div className="footer_container">
       <ul>
@@ -15,12 +16,12 @@ const Footer = () => {
         ))}
       </ul>
       <a
-        href="https://github.com/bchiang7/v4"
+        href="https://github.com/AlexisToribio"
         className="credits"
         target="_blank"
         rel="noreferrer"
       >
-        Adapted from the Brittany Chiang Portfolio
+        {t('credits')}
       </a>
     </div>
   );

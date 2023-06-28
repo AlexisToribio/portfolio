@@ -1,22 +1,20 @@
 import React from 'react';
 import Title from '../Title';
 import LinkButton from '../LinkButton';
+import { useTranslation } from 'react-i18next';
 import './styles.css';
 
 const Contact = () => {
+  const { t } = useTranslation();
   return (
     <div id="contact" className="contact_container">
-      <Title number="04">Contact</Title>
+      <Title number="04">{t('contact.title')}</Title>
       <div>
-        <h1>Get in Touch</h1>
-        <p>
-          I'm currently looking for any new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I'll try my
-          best to get back to you!
-        </p>
+        <h1>{t('contact.subtitle')}</h1>
+        <p>{t('contact.content')}</p>
         <LinkButton
           href="mailto:alexistoba21@gmail.com"
-          text="Say Hello"
+          text={t('contact.textButton')}
           standard={true}
         />
       </div>

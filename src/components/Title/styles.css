@@ -8,10 +8,10 @@ h2::after {
   content: '';
   position: absolute;
   background-color: var(--text-softblue);
-  width: calc(100% - 160px);
+  width: calc(100% - 180px);
   height: 2px;
   top: 15px;
-  left: 160px;
+  left: 180px;
 }
 
 h2 span {

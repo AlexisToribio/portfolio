@@ -1,25 +1,19 @@
 import React from 'react';
 import Title from '../Title';
 import './styles.css';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <div id="about" className="about_container">
-      <Title number="01">About Me</Title>
+      <Title number="01">{t('about.title')}</Title>
       <div>
         <div className="about">
-          <p>
-            Hi, my name is Alexis, I live in Peru. Since I was a child I was
-            passionate about the world of technology and I was always curious
-            about how to create so much wonder, the more I discovered the
-            immense amount of things that could be done, I decided to dedicate
-            myself to web development (frontend and backend) because in this
-            specialty you can let your imagination fly. My goal is to continue
-            growing as a person and professional.
-          </p>
+          <p>{t('about.content')}</p>
         </div>
         <div className="photo_container">
-          <img className="photo" src="/myphoto.jpg" alt="myphoto" />
+          <img className="photo" src="/myphoto.jpg" alt={t('about.alt')} />
         </div>
       </div>
     </div>

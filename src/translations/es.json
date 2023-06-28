@@ -1,0 +1,33 @@
+{
+  "menuOptions": {
+    "01": "Sobre mí",
+    "02": "Habilidades",
+    "03": "Portafolio",
+    "04": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, me llamo",
+    "name": "Alexis Toribio.",
+    "feature": "Construyo cosas para la web.",
+    "description": "Soy un ingeniero de sistemas que reside en Perú, especializado en la construcción de sitios web excepcionales.",
+    "textButton": "Póngase en contacto"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "content": "Hola, mi nombre es Alexis, vivo en Perú. Desde pequeño me apasionó el mundo de la tecnología y siempre tuve curiosidad de cómo se podía crear tanta maravilla, mientras más descubría la inmensa cantidad de cosas que se podían hacer, decidí dedicarme al desarrollo web (frontend y backend) porque en esta especialidad puedes dejar volar tu imaginación. Mi objetivo es seguir creciendo como persona y profesional.",
+    "alt": "Una foto mía para que me conozcas."
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "portfolio": {
+    "title": "Portafolio"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Póngase en contacto",
+    "content": "Actualmente estoy buscando nuevas oportunidades, mi bandeja de entrada está siempre abierta. Si tienes alguna pregunta o simplemente quieres saludarme, ¡haré todo lo posible por responderte!",
+    "textButton": "Saluda"
+  },
+  "credits": "Creado por Alexis Toribio con ❤️ - 2023"
+}

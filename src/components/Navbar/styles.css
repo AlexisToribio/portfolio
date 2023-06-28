@@ -8,7 +8,7 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 75%;
     height: auto;
     flex-direction: row;
     background-color: transparent;
@@ -49,6 +49,23 @@
     height: 20px;
     color: var(--text-darkblue);
     cursor: pointer;
+  }
+
+  .buttonLang {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+
+  .buttonLang p {
+    text-transform: uppercase;
+    color: var(--text-darkblue);
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav_container {
+    width: 60%;
   }
 }
 

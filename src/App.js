@@ -1,13 +1,16 @@
 import { ThemeProvider } from './context/ThemeContext';
+import { TranslationProvider } from './context/TranslationContext';
 import Home from './pages/Home';
 
 function App() {
   return (
-    <ThemeProvider>
-      <div className="App">
-        <Home />
-      </div>
-    </ThemeProvider>
+    <TranslationProvider>
+      <ThemeProvider>
+        <div className="App">
+          <Home />
+        </div>
+      </ThemeProvider>
+    </TranslationProvider>
   );
 }
 
