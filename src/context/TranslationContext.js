@@ -6,7 +6,9 @@ const TranslationContext = createContext();
 function TranslationProvider({ children }) {
   const { i18n } = useTranslation();
 
-  const [lang, setLang] = useState('es');
+  const [lang, setLang] = useState(
+    () => window.localStorage.getItem('i18nextLng') ?? 'es'
+  );
 
   const changeLanguage = () => {
     const newLang = lang === 'es' ? 'en' : 'es';
