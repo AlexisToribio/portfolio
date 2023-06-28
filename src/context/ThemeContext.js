@@ -1,12 +1,16 @@
-import { createContext, useState } from 'react';
+import { createContext, useState } from "react";
 
 const ThemeContext = createContext();
 
 const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(
+    () => window.localStorage.getItem("theme") ?? "light"
+  );
 
   const toggleTheme = () => {
-    theme === 'dark' ? setTheme('light') : setTheme('dark');
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+    window.localStorage.setItem("theme", newTheme);
   };
 
   return (
