@@ -14,8 +14,12 @@
   --text-softblue: #192a5691;
   --text-gray: #65686f;
   --sidebarBackground-color: white;
+  --sidebarBackgroundButton-color: #192a5624;
   --buttonBackground-green: rgba(13, 121, 51, 0.307);
   --headerBackground-color: white;
+  --bottonArrowUp-bg-color: #192a56;
+  --bottonArrowUp-bg-soft-color: #192a5691;
+  --bottonArrowUp-text-color: white;
 }
 
 .dark {
@@ -25,8 +29,12 @@
   --text-softblue: #ccd6f691;
   --text-gray: #8892b0;
   --sidebarBackground-color: #0a192f;
+  --sidebarBackgroundButton-color: #ffffff2f;
   --buttonBackground-green: rgba(100, 255, 218, 0.1);
   --headerBackground-color: #0a192f;
+  --bottonArrowUp-bg-color: #ccd6f6;
+  --bottonArrowUp-bg-soft-color: #ccd6f691;
+  --bottonArrowUp-text-color: #192a56;
 }
 
 .hiden-scroll {

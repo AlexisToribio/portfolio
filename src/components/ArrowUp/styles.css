@@ -1,0 +1,35 @@
+.arrow_up {
+  display: none;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  padding: 15px;
+  border-radius: 100%;
+  font-size: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: var(--bottonArrowUp-bg-color);
+  color: var(--bottonArrowUp-text-color);
+  transition: all 0.3s;
+}
+
+.arrow_up:hover {
+  background-color: var(--bottonArrowUp-bg-soft-color);
+}
+
+.isVisible {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .arrow_up {
+    right: 95px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .arrow_up {
+    opacity: 1;
+    right: 120px;
+  }
+}
