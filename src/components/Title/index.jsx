@@ -3,7 +3,7 @@ import './styles.css';
 
 const Title = ({ number, children }) => {
   return (
-    <h2>
+    <h2 className="title">
       <span>{number}. </span>
       {children}
     </h2>
