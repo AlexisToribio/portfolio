@@ -9,7 +9,7 @@ export { default as LinkButton } from './LinkButton';
 export { default as Loader } from './Loader';
 export { default as Logo } from './Logo';
 export { default as Navbar } from './Navbar';
-export { default as Portfolio } from './Porfolio';
+export { default as Portfolio } from './Portfolio';
 export { default as Sidebar } from './Sidebar';
 export { default as Skills } from './Skills';
 export { default as Title } from './Title';
