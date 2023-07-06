@@ -20,6 +20,9 @@
   --bottonArrowUp-bg-color: #192a56;
   --bottonArrowUp-bg-soft-color: #192a5691;
   --bottonArrowUp-text-color: white;
+  --buttonViewProject-color: white;
+  --buttonViewCode-color: #192a56;
+  --buttonViewCode-bg-color: #192a5623;
 }
 
 .dark {
@@ -35,6 +38,9 @@
   --bottonArrowUp-bg-color: #ccd6f6;
   --bottonArrowUp-bg-soft-color: #ccd6f691;
   --bottonArrowUp-text-color: #192a56;
+  --buttonViewProject-color: #192a56;
+  --buttonViewCode-color: white;
+  --buttonViewCode-bg-color: rgba(255, 255, 255, 0.19);
 }
 
 .hiden-scroll {
