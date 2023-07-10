@@ -26,14 +26,14 @@
     "text_view_code": "View code",
     "projects": [
       {
-        "title": "Title 1",
-        "description": "It is a long established fact that a reader will be distracted by the text content of a site while looking at its design. Many versions have evolved over the years, sometimes by accident, other times on purpose (for example, inserting humor and the like).",
-        "alt": "Image of a project"
+        "title": "Netflix Clone",
+        "description": "A Netflix clone made with React and stylized with Styled Components, I also used 2 Firabase services 🔥: Firestore Database and Authentication to store the movie data and handle the user session (registration and login), I encourage you to you see it is made with ❤️.",
+        "alt": "Netflix Clone"
       },
       {
-        "title": "Title 2",
-        "description": "There are many variations of Lorem Ipsum passages available, but most have been altered in some way, either by adding humor, or by random words that don't seem the least bit believable. This generated Lorem Ipsum will always be free of repetitions, added humor or non-language words, etc.",
-        "alt": "Image of a project"
+        "title": "Pokemon Finder",
+        "description": "A page made with Next and the following techniques: Static Site Generation, Incremental Static Regeneration and Incremental Static Generation and for the components I used NextUi. On this page you can search for your favorite pokemon and add them to a list to keep them saved, at first glance it seems that you can only search among the first 151 pokemons of the first generation but try to try another that is not there, come on try it, you will be surprised! 🔎",
+        "alt": "Pokemon Finder"
       }
     ]
   },

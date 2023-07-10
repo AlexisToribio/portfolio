@@ -14,12 +14,13 @@ const ListOfProjects = () => {
             {t(`portfolio.projects.${index}.title`)}
           </h2>
           <a
-            href="/"
+            href={project.url_website}
             className="project_image_container"
             target="_blank"
             title={`${t('portfolio.text_view_project')} ${t(
               `portfolio.projects.${index}.title`
             )}`}
+            rel="noreferrer"
           >
             <img
               className="project_image"
@@ -35,12 +36,12 @@ const ListOfProjects = () => {
             ))}
           </ul>
           <div className="buttons_container">
-            <a href="/" className="button_view">
+            <a href={project.url_github} className="button_view">
               <BsGithub className="icon_view" />
               <p>{t('portfolio.text_view_code')}</p>
             </a>
 
-            <a href="/" className="button_view">
+            <a href={project.url_website} className="button_view">
               <BsBoxArrowUpRight className="icon_view" />
               <p>{t('portfolio.text_view_project')}</p>
             </a>

@@ -26,14 +26,14 @@
     "text_view_code": "Ver código",
     "projects": [
       {
-        "title": "Título 1",
-        "description": "Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).",
-        "alt": "Imagen de un proyecto"
+        "title": "Netflix Clone",
+        "description": "Un clon de Netflix hecho con React y estilizado con Styled Components, además utilicé 2 servicios de Firabase 🔥: Firestore Database y Authentication para almacenar los datos de las películas y manejar la sesión del usuario (registro e inicio de sesión), te animo a que lo veas esta hecho con ❤️.",
+        "alt": "Netflix Clone"
       },
       {
-        "title": "Título 2",
-        "description": "Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Este Lorem Ipsum generado siempre estará libre de repeticiones, humor agregado o palabras no características del lenguaje, etc.",
-        "alt": "Imagen de un proyecto"
+        "title": "Pokemon Finder",
+        "description": "Una página hecho con Next y las siguientes técnicas: Static Site Generation, Incremental Static Regeneration e Incremental Static Generation y para los componentes utilicé NextUi. En esta página puedes buscar tus pokemon favoritos y añadirlos a una lista para tenerlos guardados, a simple vista pareciese que solo puedes buscar entre los primeros 151 pokemons de la primera generación pero intenta probar con otro que no esté, ¡Vamos pruébalo, te sorprenderás! 🔎",
+        "alt": "Pokemon Finder"
       }
     ]
   },
