@@ -1,0 +1,20 @@
+.button_view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+  gap: 10px;
+  border: 1px solid var(--buttonView-color);
+  border-radius: 15px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.icon_view,
+.button_view p {
+  color: var(--buttonView-color);
+}
+
+.button_view:hover {
+  background-color: var(--buttonView-bg-color);
+}
