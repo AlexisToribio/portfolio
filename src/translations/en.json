@@ -32,8 +32,13 @@
       },
       {
         "title": "Pokemon Finder",
-        "description": "A page made with Next and the following techniques: Static Site Generation, Incremental Static Regeneration and Incremental Static Generation and for the components I used NextUi. On this page you can search for your favorite pokemon and add them to a list to keep them saved, at first glance it seems that you can only search among the first 151 pokemons of the first generation but try to try another that is not there, come on try it, you will be surprised! 🔎",
+        "description": "A page made with Next and the following techniques: Static Site Generation, Incremental Static Regeneration and Incremental Static Generation and for the components I used NextUi. On this page you can search for your favorite pokemon 💛 and add them to a list to keep them saved 💾, at first glance it seems that you can only search among the first 151 pokemons of the first generation but try to try another that is not there, come on try it, you will be surprised! 🔎",
         "alt": "Pokemon Finder"
+      },
+      {
+        "title": "OpenJira Clone",
+        "description": "A basic task manager that mimics the Jira software, it is made by the 🌞 Frontend part with Next (Server Site Rendering) and MaterialUi components; and by the 🌚 Backend part I use the API provided by Next and MongoDB as database. Locally I use Docker to run the project in development and to deploy it in production I use Vercel and MongoDB Cloud ☁️.",
+        "alt": "OpenJira Clone"
       }
     ]
   },

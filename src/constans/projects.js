@@ -11,4 +11,10 @@ export const projects = [
     url_website: 'https://pokemon-static-beta-virid.vercel.app/',
     url_github: 'https://github.com/AlexisToribio/pokemon-static',
   },
+  {
+    img: '/img/openjira-clone',
+    technologies: ['Next (SSR)', 'MaterialUi', 'MongoDB', 'Docker'],
+    url_website: 'https://open-jira-six.vercel.app/',
+    url_github: 'https://github.com/AlexisToribio/open-jira',
+  },
 ];
