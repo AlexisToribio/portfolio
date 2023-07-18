@@ -17,4 +17,16 @@ export const projects = [
     url_website: 'https://open-jira-six.vercel.app/',
     url_github: 'https://github.com/AlexisToribio/open-jira',
   },
+  {
+    img: '/img/shopping-cart.png',
+    technologies: ['React', 'CSS'],
+    url_website: 'https://shopping-cart-dun-psi.vercel.app/',
+    url_github: 'https://github.com/AlexisToribio/shopping-cart',
+  },
+  {
+    img: '/img/tic-tac-toe.png',
+    technologies: ['React', 'CSS'],
+    url_website: 'https://tic-tac-toe-chi-indol.vercel.app/',
+    url_github: 'https://github.com/AlexisToribio/tic-tac-toe',
+  },
 ];
