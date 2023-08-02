@@ -11,12 +11,12 @@ export const projects = [
     url_website: 'https://pokemon-static-beta-virid.vercel.app/',
     url_github: 'https://github.com/AlexisToribio/pokemon-static',
   },
-  {
-    img: '/img/openjira-clone.png',
-    technologies: ['Next (SSR)', 'MaterialUi', 'MongoDB', 'Docker'],
-    url_website: 'https://open-jira-six.vercel.app/',
-    url_github: 'https://github.com/AlexisToribio/open-jira',
-  },
+  // {
+  //   img: '/img/openjira-clone.png',
+  //   technologies: ['Next (SSR)', 'MaterialUi', 'MongoDB', 'Docker'],
+  //   url_website: 'https://open-jira-six.vercel.app/',
+  //   url_github: 'https://github.com/AlexisToribio/open-jira',
+  // },
   {
     img: '/img/shopping-cart.png',
     technologies: ['React', 'CSS'],
