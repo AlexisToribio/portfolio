@@ -31,7 +31,7 @@ export const skills = [
   },
   {
     title: 'Team Management',
-    description: 'Notion',
-    img: '/img/notion.png',
+    description: 'Trello',
+    img: '/img/trello.png',
   },
 ];

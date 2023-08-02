@@ -8,13 +8,13 @@
   "hero": {
     "greeting": "Hi, my name is",
     "name": "Alexis Toribio.",
-    "feature": "I build things for the web.",
+    "feature": "I build components and cool websites.",
     "description": "I'm a system engineer based in Peru, specializing in building exceptional websites.",
     "textButton": "Get in Touch"
   },
   "about": {
     "title": "About Me",
-    "content": "Hello, my name is Alexis and I live in Peru, I have a bachelor's degree in Systems Engineering at UNMSM, I am 24 years old and I specialize in web development. I have worked in team projects which has allowed me to develop skills for collaborative development. I aspire to be a fullstack web developer applying best practices with efficiency in mind. Finally my goal is to keep growing as a person and professional.",
+    "content": "Hello, I live in Peru, I have a bachelor's degree in Systems Engineering at UNMSM, I am 24 years old and I specialize in web development. I have worked in team projects which has allowed me to develop skills for collaborative development. I aspire to be a fullstack web developer applying best practices with efficiency in mind. Finally my goal is to keep growing as a person and professional.",
     "alt": "A picture of me so you can get to know me."
   },
   "skills": {

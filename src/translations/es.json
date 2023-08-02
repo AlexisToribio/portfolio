@@ -8,13 +8,13 @@
   "hero": {
     "greeting": "Hola, me llamo",
     "name": "Alexis Toribio.",
-    "feature": "Construyo cosas para la web.",
+    "feature": "Construyo componentes y geniales sitios web.",
     "description": "Soy un ingeniero de sistemas que reside en Perú, especializado en la construcción de sitios web excepcionales.",
     "textButton": "Póngase en contacto"
   },
   "about": {
     "title": "Sobre Mí",
-    "content": "Hola, mi nombre es Alexis y vivo en Perú, soy bachiller de la carrera de Ingeniería de Sistemas en la UNMSM, tengo 24 años y me especializo en el desarrollo web. He trabajado en proyectos en equipo lo que me ha permitido desarrollar habilidades para el desarrollo colaborativo. Aspiro a ser desarrollador web fullstack aplicando las mejores prácticas teniendo en cuenta la eficiencia. Finalmente mi objetivo es seguir creciendo como persona y profesional.",
+    "content": "Hola, vivo en Perú, soy bachiller de la carrera de Ingeniería de Sistemas en la UNMSM, tengo 24 años y me especializo en el desarrollo web. He trabajado en proyectos en equipo lo que me ha permitido desarrollar habilidades para el desarrollo colaborativo. Aspiro a ser desarrollador web fullstack aplicando las mejores prácticas teniendo en cuenta la eficiencia. Finalmente mi objetivo es seguir creciendo como persona y profesional.",
     "alt": "Una foto mía para que me conozcas."
   },
   "skills": {
