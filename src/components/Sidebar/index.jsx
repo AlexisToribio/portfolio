@@ -56,7 +56,7 @@ const Sidebar = () => {
         ))}
         <LinkButton
           href="/Miguel Alexis Toribio Barrueta - CURRICULUM.pdf"
-          text="Resume"
+          text="Curriculum"
           standard={true}
         />
       </nav>

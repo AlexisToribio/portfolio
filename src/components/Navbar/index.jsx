@@ -23,7 +23,7 @@ const Navbar = () => {
       ))}
       <LinkButton
         href="/Miguel Alexis Toribio Barrueta - CURRICULUM.pdf"
-        text="Resume"
+        text="Curriculum"
       />
       {theme === 'dark' ? (
         <FiMoon className="icon_mode" onClick={toggleTheme} />
