@@ -16,7 +16,7 @@
 }
 
 .skill_item:nth-child(7) .skill_image {
-  width: 80%;
+  width: 60%;
 }
 
 @media (min-width: 1024px) {
