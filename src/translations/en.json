@@ -1,57 +1,57 @@
 {
-  "menuOptions": {
-    "01": "About me",
-    "02": "Skills",
-    "03": "Portfolio",
-    "04": "Contact"
-  },
-  "hero": {
-    "greeting": "Hi, my name is",
-    "name": "Alexis Toribio.",
-    "feature": "I build components and cool websites.",
-    "description": "I'm a system engineer based in Peru, specializing in building exceptional websites.",
-    "textButton": "Get in Touch"
-  },
-  "about": {
-    "title": "About Me",
-    "content": "Hello, I live in Peru, I have a bachelor's degree in Systems Engineering at UNMSM, I am 24 years old and I specialize in web development. I have worked in team projects which has allowed me to develop skills for collaborative development. I aspire to be a fullstack web developer applying best practices with efficiency in mind. Finally my goal is to keep growing as a person and professional.",
-    "alt": "A picture of me so you can get to know me."
-  },
-  "skills": {
-    "title": "Skills"
-  },
-  "portfolio": {
-    "title": "Portfolio",
-    "text_view_project": "View project",
-    "text_view_code": "View code",
-    "projects": [
-      {
-        "title": "Netflix Clone",
-        "description": "A Netflix clone made with React and stylized with Styled Components, I also used 2 Firabase services 🔥: Firestore Database and Authentication to store the movie data and handle the user session (registration and login), I encourage you to you see it is made with ❤️.",
-        "alt": "Netflix Clone"
-      },
-      {
-        "title": "Pokemon Finder",
-        "description": "A page made with Next and the following techniques: Static Site Generation, Incremental Static Regeneration and Incremental Static Generation and for the components I used NextUi. On this page you can search for your favorite pokemon 💛 and add them to a list to keep them saved 💾, at first glance it seems that you can only search among the first 151 pokemons of the first generation but try to try another that is not there, come on try it, you will be surprised! 🔎",
-        "alt": "Pokemon Finder"
-      },
-      {
-        "title": "Shopping Cart",
-        "description": "A page with products that you can add to a shopping cart 🛒 and inside the cart you can increase the quantity, remove each product or all at once. This page is built with React 18 ⚛️ and styled with CSS 🎨.",
-        "alt": "Shopping Cart"
-      },
-      {
-        "title": "Tic Tac Toe",
-        "description": "A web application built with React 18 ⚛️ and styled with CSS 🎨 that simulates the game of Tic Tac Toe, you can play with your friends or family, in case you do not finish the game is saved in local storage 💾, try it and have fun 😄🥳.",
-        "alt": "Tic Tac Toe"
-      }
-    ]
-  },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "Get in Touch",
-    "content": "I'm currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
-    "textButton": "Say Hello"
-  },
-  "credits": "Created by Alexis Toribio with ❤️ - 2023"
+	"menuOptions": {
+		"01": "About me",
+		"02": "Skills",
+		"03": "Portfolio",
+		"04": "Contact"
+	},
+	"hero": {
+		"greeting": "Hi, my name is",
+		"name": "Alexis Toribio.",
+		"feature": "I build components and cool websites.",
+		"description": "I'm a system engineer based in Peru, specializing in building exceptional websites.",
+		"textButton": "Get in Touch"
+	},
+	"about": {
+		"title": "About Me",
+		"content": "Hi, I live in Peru, I have a bachelor's degree in Systems Engineering at UNMSM, I am 25 years old and I specialize in web development and AWS Cloud Services. I have worked in team projects which has allowed me to develop skills for collaborative development. I aspire to be a fullstack web developer and solutions architect applying best practices with efficiency in mind. Finally my goal is to keep growing as a person and professional.",
+		"alt": "A picture of me so you can get to know me."
+	},
+	"skills": {
+		"title": "Skills"
+	},
+	"portfolio": {
+		"title": "Portfolio",
+		"text_view_project": "View project",
+		"text_view_code": "View code",
+		"projects": [
+			{
+				"title": "Netflix Clone",
+				"description": "A Netflix clone made with React and stylized with Styled Components, I also used 2 Firabase services 🔥: Firestore Database and Authentication to store the movie data and handle the user session (registration and login), I encourage you to you see it is made with ❤️.",
+				"alt": "Netflix Clone"
+			},
+			{
+				"title": "Pokemon Finder",
+				"description": "A page made with Next and the following techniques: Static Site Generation, Incremental Static Regeneration and Incremental Static Generation and for the components I used NextUi. On this page you can search for your favorite pokemon 💛 and add them to a list to keep them saved 💾, at first glance it seems that you can only search among the first 151 pokemons of the first generation but try to try another that is not there, come on try it, you will be surprised! 🔎",
+				"alt": "Pokemon Finder"
+			},
+			{
+				"title": "Shopping Cart",
+				"description": "A page with products that you can add to a shopping cart 🛒 and inside the cart you can increase the quantity, remove each product or all at once. This page is built with React 18 ⚛️ and styled with CSS 🎨.",
+				"alt": "Shopping Cart"
+			},
+			{
+				"title": "Tic Tac Toe",
+				"description": "A web application built with React 18 ⚛️ and styled with CSS 🎨 that simulates the game of Tic Tac Toe, you can play with your friends or family, in case you do not finish the game is saved in local storage 💾, try it and have fun 😄🥳.",
+				"alt": "Tic Tac Toe"
+			}
+		]
+	},
+	"contact": {
+		"title": "Contact",
+		"subtitle": "Get in Touch",
+		"content": "I'm currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+		"textButton": "Say Hello"
+	},
+	"credits": "Created by Alexis Toribio with ❤️ - 2023"
 }

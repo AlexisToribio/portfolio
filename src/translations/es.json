@@ -1,57 +1,57 @@
 {
-  "menuOptions": {
-    "01": "Sobre mí",
-    "02": "Habilidades",
-    "03": "Portafolio",
-    "04": "Contacto"
-  },
-  "hero": {
-    "greeting": "Hola, me llamo",
-    "name": "Alexis Toribio.",
-    "feature": "Construyo componentes y geniales sitios web.",
-    "description": "Soy un ingeniero de sistemas que reside en Perú, especializado en la construcción de sitios web excepcionales.",
-    "textButton": "Póngase en contacto"
-  },
-  "about": {
-    "title": "Sobre Mí",
-    "content": "Hola, vivo en Perú, soy bachiller de la carrera de Ingeniería de Sistemas en la UNMSM, tengo 24 años y me especializo en el desarrollo web. He trabajado en proyectos en equipo lo que me ha permitido desarrollar habilidades para el desarrollo colaborativo. Aspiro a ser desarrollador web fullstack aplicando las mejores prácticas teniendo en cuenta la eficiencia. Finalmente mi objetivo es seguir creciendo como persona y profesional.",
-    "alt": "Una foto mía para que me conozcas."
-  },
-  "skills": {
-    "title": "Habilidades"
-  },
-  "portfolio": {
-    "title": "Portafolio",
-    "text_view_project": "Ver proyecto",
-    "text_view_code": "Ver código",
-    "projects": [
-      {
-        "title": "Netflix Clone",
-        "description": "Un clon de Netflix hecho con React y estilizado con Styled Components, además utilicé 2 servicios de Firabase 🔥: Firestore Database y Authentication para almacenar los datos de las películas y manejar la sesión del usuario (registro e inicio de sesión), te animo a que lo veas esta hecho con ❤️.",
-        "alt": "Netflix Clone"
-      },
-      {
-        "title": "Pokemon Finder",
-        "description": "Una página hecho con Next y las siguientes técnicas: Static Site Generation, Incremental Static Regeneration e Incremental Static Generation y para los componentes utilicé NextUi. En esta página puedes buscar tus pokemon favoritos 💛 y añadirlos a una lista para tenerlos guardados 💾, a simple vista pareciese que solo puedes buscar entre los primeros 151 pokemons de la primera generación pero intenta probar con otro que no esté, ¡Vamos pruébalo, te sorprenderás! 🔎",
-        "alt": "Pokemon Finder"
-      },
-      {
-        "title": "Shopping Cart",
-        "description": "Una página con productos que puedes agregar a un carrito de compras 🛒 y dentro del carrito puedes aumentar la cantidad, remover cada producto o todos a la vez. Esta página esta construido con React 18 ⚛️ y estilizado con CSS 🎨.",
-        "alt": "Shopping Cart"
-      },
-      {
-        "title": "Tic Tac Toe",
-        "description": "Un aplicativo web construido con React 18 ⚛️ y estilizado con CSS 🎨 que simula el juego del Tic  Tac Toe, puedes jugar con tus amigos o familiares, en caso no acabes la partida se guarda en el local storage 💾, pruebalo y diviertete 😄🥳.",
-        "alt": "Tic Tac Toe"
-      }
-    ]
-  },
-  "contact": {
-    "title": "Contacto",
-    "subtitle": "Póngase en contacto",
-    "content": "Actualmente estoy buscando nuevas oportunidades, mi bandeja de entrada está siempre abierta. Si tienes alguna pregunta o simplemente quieres saludarme, ¡haré todo lo posible por responderte!",
-    "textButton": "Saluda"
-  },
-  "credits": "Creado por Alexis Toribio con ❤️ - 2023"
+	"menuOptions": {
+		"01": "Sobre mí",
+		"02": "Habilidades",
+		"03": "Portafolio",
+		"04": "Contacto"
+	},
+	"hero": {
+		"greeting": "Hola, me llamo",
+		"name": "Alexis Toribio.",
+		"feature": "Construyo componentes y geniales sitios web.",
+		"description": "Soy un ingeniero de sistemas que reside en Perú, especializado en la construcción de sitios web excepcionales.",
+		"textButton": "Póngase en contacto"
+	},
+	"about": {
+		"title": "Sobre Mí",
+		"content": "Hola, vivo en Perú, soy bachiller en Ingeniería de Sistemas de la UNMSM, tengo 25 años y me especializo en el desarrollo web y servicios de la nube de AWS. He trabajado en proyectos en equipo lo que me ha permitido desarrollar habilidades para el desarrollo colaborativo. Aspiro a ser un desarrollador web fullstack y arquitecto de soluciones aplicando las mejores prácticas pensando en la eficiencia. Finalmente mi meta es seguir creciendo como persona y profesional.",
+		"alt": "Una foto mía para que me conozcas."
+	},
+	"skills": {
+		"title": "Habilidades"
+	},
+	"portfolio": {
+		"title": "Portafolio",
+		"text_view_project": "Ver proyecto",
+		"text_view_code": "Ver código",
+		"projects": [
+			{
+				"title": "Netflix Clone",
+				"description": "Un clon de Netflix hecho con React y estilizado con Styled Components, además utilicé 2 servicios de Firabase 🔥: Firestore Database y Authentication para almacenar los datos de las películas y manejar la sesión del usuario (registro e inicio de sesión), te animo a que lo veas esta hecho con ❤️.",
+				"alt": "Netflix Clone"
+			},
+			{
+				"title": "Pokemon Finder",
+				"description": "Una página hecho con Next y las siguientes técnicas: Static Site Generation, Incremental Static Regeneration e Incremental Static Generation y para los componentes utilicé NextUi. En esta página puedes buscar tus pokemon favoritos 💛 y añadirlos a una lista para tenerlos guardados 💾, a simple vista pareciese que solo puedes buscar entre los primeros 151 pokemons de la primera generación pero intenta probar con otro que no esté, ¡Vamos pruébalo, te sorprenderás! 🔎",
+				"alt": "Pokemon Finder"
+			},
+			{
+				"title": "Shopping Cart",
+				"description": "Una página con productos que puedes agregar a un carrito de compras 🛒 y dentro del carrito puedes aumentar la cantidad, remover cada producto o todos a la vez. Esta página esta construido con React 18 ⚛️ y estilizado con CSS 🎨.",
+				"alt": "Shopping Cart"
+			},
+			{
+				"title": "Tic Tac Toe",
+				"description": "Un aplicativo web construido con React 18 ⚛️ y estilizado con CSS 🎨 que simula el juego del Tic  Tac Toe, puedes jugar con tus amigos o familiares, en caso no acabes la partida se guarda en el local storage 💾, pruebalo y diviertete 😄🥳.",
+				"alt": "Tic Tac Toe"
+			}
+		]
+	},
+	"contact": {
+		"title": "Contacto",
+		"subtitle": "Póngase en contacto",
+		"content": "Actualmente estoy buscando nuevas oportunidades, mi bandeja de entrada está siempre abierta. Si tienes alguna pregunta o simplemente quieres saludarme, ¡haré todo lo posible por responderte!",
+		"textButton": "Saluda"
+	},
+	"credits": "Creado por Alexis Toribio con ❤️ - 2023"
 }
